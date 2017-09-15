@@ -1,0 +1,22 @@
+{
+  "name": "loadingindicator",
+  "description": "Shows the use of Loading indicator",
+  "main": "index.html",
+  "authors": [
+    "Matome Phoshoko"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-bootstrap": "0.14.3",
+    "angular-loading-bar": "^0.9.0"
+  },
+  "resolutions": {
+    "angular": "1.4.x"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ]
+}

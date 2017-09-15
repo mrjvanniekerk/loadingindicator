@@ -1,0 +1,16 @@
+{
+  "name": "loadingindicator",
+  "version": "1.0.0",
+  "description": "This demonstrates the use of angularJS loading indicator",
+  "main": "index.html",
+  "author": "Matome Phoshoko",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-serve": "^0.1.6",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0"
+  }
+}

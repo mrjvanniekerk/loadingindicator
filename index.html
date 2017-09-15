@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="loadingIndicatorApp">
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.js"></script>
+    <link href="styles/libs/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="js/loadingIndicator.js"></script>
+</head>
+<body ng-controller="loadingIndicatorCtrl">
+    <h1>Load developer names</h1>
+    <p>This page loads developer names and shows a loading indicator</p>
+    <div data-loading></div>
+    <div>
+        <ul ng-repeat="developer in developers">
+            <li>{{developer.fname}}</li>
+        </ul>
+    </div>
+    <button ng-click="loadData()" class="btn btn-primary">Load data</button>
+</body>
+</html>
