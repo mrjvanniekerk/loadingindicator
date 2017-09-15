@@ -20,6 +20,7 @@ To run this application you should have node already installed.
 ```
 https://github.com/mrjvanniekerk/loadingindicator.git
 ```
+Then run npm install
 
 **[2] Open the project using any IDE, I used sublime. Make sure you have standard linter installed**:
 
@@ -32,6 +33,6 @@ linter called standard.
 then copy and paste this url on any browser http://localhost:9000/index.html**:
 
 ```
-The project waits five seconds before loading data. This was done intentionally so that the indicator may be displayed. After 5 seconds a list of names should appear
+After the porject loads, onclick event for load name button  waits five seconds before loading data. This was done intentionally so that the indicator may be displayed. After 5 seconds a list of names should appear
 ```
 
